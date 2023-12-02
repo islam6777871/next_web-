@@ -1,0 +1,55 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+nav{
+    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
+}
+nav button{
+    padding: 1px 22px;
+    border-radius: 25px 0px 25px 0px;
+    background-color: #CAA892;
+    color: white;
+    border: none;
+    margin-left: 12px;
+}
+.hero_headline{
+    font-family: 'Poppins', sans-serif;
+    font-size: 60px;
+}
+.hero-first{
+    margin-top: 130px;
+}
+.hero-first button{
+    padding: 5px 22px;
+    border-radius: 25px 0px 25px 0px;
+    background-color: #37806B;
+    color: white;
+    border: none;
+    margin-left: 12px;
+}
+.card-body{
+    display: flex;
+    gap: 12px;
+}
+.first-card{
+    border-radius: 35px 0px 35px 0px;
+   
+  padding-left: 15px;
+  height: 160px;
+  padding-top: 36px;
+    box-shadow: 5px 10px 10px 5px rgb(216, 210, 210);
+}
+.row{
+    justify-content: space-between;
+}
+
+.second-card{
+    border-radius: 35px 0px 35px 0px;
+   background-color: #CAA892;
+   color: white;
+  padding-left: 15px;
+  height: 160px;
+  padding-top: 36px;
+    box-shadow: 5px 10px 10px 5px rgb(216, 210, 210); 
+}
